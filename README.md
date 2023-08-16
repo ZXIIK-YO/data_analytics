@@ -35,4 +35,7 @@ Para verificar meu progresso, por favor, verifique o README de cada Sprint.
 
 **Sprint 1:**  
 Conteúdo: Git, GitHub e Linux.  
-Progresso: Veja o README da Sprint clicando [aqui](link)!
+Progresso: Veja o README da Sprint clicando [aqui](https://github.com/ZXIIK-YO/data_analytics/blob/master/Sprint%201/README.md)!
+
+
+
