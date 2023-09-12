@@ -1,0 +1,2 @@
+## A respeito do certificado
+Aqui, adicionei apenas imagens que comprovam a conclusão das aulas selecionadas para a trilha de aprendizado. Já que, devido ao tempo, não foi possível ver o curso completo (contando com as aulas fora da trilha).
