@@ -26,7 +26,7 @@ with open('actors.csv', 'r', newline='', encoding='utf-8') as csvfile:
 
 # Agora você tem os dados do arquivo CSV armazenados na lista 'data'
 
-# 1.
+# #1.
 # # Encontre o ator com o maior número de filmes
 # actor_with_most_movies = max(data, key=lambda x: x[2])
 # # Extrai o nome do ator e a quantidade de filmes
@@ -34,14 +34,14 @@ with open('actors.csv', 'r', newline='', encoding='utf-8') as csvfile:
 # print(f"{actor_name} - {number_of_movies} filmes")
 
 
-# 2.
+# #2.
 # # Calcula a média da coluna Gross (receita bruta dos principais filmes)
 # gross_values = [row[5] for row in data]
 # average_gross = sum(gross_values) / len(gross_values)
 # print(f"Média de Receita Bruta dos Principais Filmes: ${average_gross:.2f} milhões de dólares")
 
 
-# 3.
+# #3.
 # # Encontra o ator com a maior média de receita por filme
 # actor_with_highest_average = max(data, key=lambda x: x[3])
 # # Extrai o nome do ator e a média
@@ -69,15 +69,15 @@ with open('actors.csv', 'r', newline='', encoding='utf-8') as csvfile:
 #     print(f"{idx} - O filme {movie} aparece {count} vez(es) no dataset")
 
 
-# 5.
-# Ordena os atores pela receita bruta em ordem decrescente
-actors_sorted_by_gross = sorted(data, key=lambda x: -x[1])
+# # 5.
+# # Ordena os atores pela receita bruta em ordem decrescente
+# actors_sorted_by_gross = sorted(data, key=lambda x: -x[1])
 
-# Escreve os resultados em um arquivo
-with open('atores_por_receita.txt', 'w') as file:
-    for actor in actors_sorted_by_gross:
-        file.write(f"{actor[0]} - ${actor[1]:.2f} milhões de dólares\n")
+# # Escreve os resultados em um arquivo
+# with open('atores_por_receita.txt', 'w') as file:
+#     for actor in actors_sorted_by_gross:
+#         file.write(f"{actor[0]} - ${actor[1]:.2f} milhões de dólares\n")
 
-# Imprime os resultados na saída padrão
-for actor in actors_sorted_by_gross:
-    print(f"{actor[0]} - ${actor[1]:.2f} milhões de dólares")
+# # Imprime os resultados na saída padrão
+# for actor in actors_sorted_by_gross:
+#     print(f"{actor[0]} - ${actor[1]:.2f} milhões de dólares")
