@@ -26,12 +26,12 @@ with open('actors.csv', 'r', newline='', encoding='utf-8') as csvfile:
 
 # Agora você tem os dados do arquivo CSV armazenados na lista 'data'
 
-# #1.
-# # Encontre o ator com o maior número de filmes
-# actor_with_most_movies = max(data, key=lambda x: x[2])
-# # Extrai o nome do ator e a quantidade de filmes
-# actor_name, number_of_movies = actor_with_most_movies[0], actor_with_most_movies[2]
-# print(f"{actor_name} - {number_of_movies} filmes")
+#1.
+# Encontre o ator com o maior número de filmes
+actor_with_most_movies = max(data, key=lambda x: x[2])
+# Extrai o nome do ator e a quantidade de filmes
+actor_name, number_of_movies = actor_with_most_movies[0], actor_with_most_movies[2]
+print(f"{actor_name} - {number_of_movies} filmes")
 
 
 # #2.
