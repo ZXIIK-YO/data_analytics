@@ -1,4 +1,5 @@
-Ordena os atores pela receita bruta em ordem decrescente
+5. Apresente a lista dos atores ordenada pela receita bruta de bilheteria de seus filmes (coluna Total Gross), em ordem decrescente.
+Ao escrever no arquivo, considere o padrão de saída <nome do ator> -  <receita total bruta>, adicionando um resultado a cada linha.
 
 Harrison Ford - $4871.70 milhões de dólares
 Samuel L. Jackson - $4772.80 milhões de dólares
