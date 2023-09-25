@@ -32,10 +32,3 @@ Funções: Suporte n1 em problemas relacionados a redes e equipamentos (roteador
 ### O que estou aprendendo:
 
 Para verificar meu progresso, por favor, verifique o README de cada Sprint.
-
-**Sprint 1:**  
-Conteúdo: Git, GitHub e Linux.  
-Progresso: Veja o README da Sprint clicando [aqui](https://github.com/ZXIIK-YO/data_analytics/blob/master/Sprint%201/README.md)!
-
-
-
