@@ -1,0 +1,5 @@
+Q. Registrar o conteúdo do script Python, arquivo Dockerfile e comando de inicialização do container neste espaço.
+
+R.
+docker build -t mascarar-dados .
+docker run -it mascarar-dados
